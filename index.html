@@ -895,7 +895,7 @@ function getInspectors() {
 // ── SUBMIT (fetch → Google Apps Script doPost) ──
 function submitForm() {
   // ตรวจ SCRIPT_URL ก่อน
-  if (!SCRIPT_URL || SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE') {
+  if (!SCRIPT_URL || SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbxgqO4bg9L6cK2QjYdh18BSEdU6HrPAsIM_o_Zrnw_oKYaDVZgRy5KJWFN5NmUNhuWY5Q/exec') {
     toast('⚠️ ยังไม่ได้ตั้งค่า SCRIPT_URL — กรุณาใส่ URL ของ Web App ใน index.html', 'err');
     return;
   }
